@@ -1,0 +1,3 @@
+# Unexpected Type Inference in TypeScript
+
+This repository demonstrates a subtle type inference issue in TypeScript that can lead to unexpected behavior. The `combine` function appears to correctly concatenate two number arrays, but the type inference might not be accurate in more complex scenarios or when using the result within more sophisticated types. This can lead to runtime errors or unexpected behavior during compilation.
